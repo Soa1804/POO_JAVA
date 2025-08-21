@@ -1,0 +1,31 @@
+
+public class Exercicio_2 {
+		public static void main(String[] args) {
+			System.out.println("==Exercicio A==");
+			int x = 1;
+			int
+			while(x<10) {
+				if(x>3) {
+					System.out.println("Big x");
+				}
+				x = x+1;
+				System.out.println("x agora é " + x);
+				if(x<=3) {
+					System.out.println("O x não obdece a condição do if(x>3)!");
+				}
+				if(x==10) {
+					System.out.println("O programa acaba pois x não obedece à condição while!");
+				}
+			}
+		}
+			int x = 5;
+			while(x>1) {
+				x = x-1;
+				System.out.println("X agora é: " + x);
+				if(x<3) {
+					System.out.println("Small x");
+				}
+			}
+		}
+	}
+}

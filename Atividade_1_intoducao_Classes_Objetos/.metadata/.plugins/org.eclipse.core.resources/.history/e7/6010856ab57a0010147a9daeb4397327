@@ -1,0 +1,19 @@
+class Exercicio_2_A {
+	public static void main(String[] args) {
+		int x = 1;
+		while(x<10) {
+			System.out.println("x agora é " + x);
+			if(x>3) {
+				System.out.println("Big x");
+			}
+			x = x+1;
+			System.out.println("x agora é " + x);
+			if(x<=3) {
+				System.out.println("O x não obdece a condição do if(x>3)!");
+			}
+			if(x==10) {
+				System.out.println("O programa acaba pois x não obedece à condição while!");
+			}
+		}
+	}
+}

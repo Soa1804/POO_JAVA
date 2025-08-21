@@ -1,0 +1,11 @@
+public class Aula2_HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello, World!!!");
+		
+		System.out.println("Existe dois tipos de print:");
+		
+		System.out.print("O println pula linhas, ");
+		
+		System.out.print("O print faz tudo ficar na mesma linha");
+	}
+}
